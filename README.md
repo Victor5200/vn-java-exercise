@@ -6,7 +6,7 @@ Run `ExerciseOne.java` to see Exercise Answer.
 
 ## Exercise Two:
 
-Use Postman and create a post call to `http://localhost:8080/country`
+Use Postman and create a post call to `http://localhost:8080/country` use the json bellow 
 
 ```
 [ 

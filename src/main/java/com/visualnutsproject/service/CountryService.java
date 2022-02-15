@@ -26,6 +26,7 @@ public class CountryService {
                 countries.stream().sorted((o1, o2) -> Integer.valueOf(o2.getLanguages().size()).compareTo(o1.getLanguages().size()))
                         .findFirst());
 
+        contriesMapInfo.put("mostCommomLanguagesInCountries", "");
         return contriesMapInfo;
     }
 }
